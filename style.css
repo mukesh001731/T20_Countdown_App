@@ -148,3 +148,337 @@ a:hover {
 #colon1 {
     display: none;
 }
+
+/* Responsive styles for 1201px and more: Extra large screens, TV */
+@media (min-width: 1201px) {
+
+    #firstheader {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    #header1 {
+        font-size: 5rem;
+        font-weight: bolder;
+        padding-bottom: 2rem;
+        color: white;
+        text-align: center;
+    }
+
+    #timer {
+        font-size: 3rem;
+        column-gap: 20px;
+        
+    }
+
+    #colon,
+    #colonone,
+    #colontwo,
+    #colonthird {
+        font-size: 5rem;
+        margin-top: 2rem;
+    }
+
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+        height: 8rem;
+        width: 8rem;
+        font-size: 5rem;
+    }
+
+    #clockHeader {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 800px;
+        color: white;
+        text-align: center;
+    }
+    
+    #clockHeader>div {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #img {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    a {
+        font-size: 1.4rem;
+        width: 12rem;
+    }
+}
+
+/* Responsive styles for 1025px – 1200px: Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    #firstheader {
+        color: white;
+        font-size: 3rem;
+    }
+
+    #header1 {
+        font-size: 4rem;
+        margin-top: 4rem;
+    }
+
+    #timer {
+        font-size: 2.5rem;
+        column-gap: 25px;
+    }
+
+    #colon,
+    #colonone,
+    #colontwo,
+    #colonthird {
+        font-size: 8rem;
+        margin-top: 2rem;
+    }
+
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+        height: 10rem;
+        width: 10rem;
+        font-size: 6rem;
+        margin-top: 4rem;
+    }
+
+    #clockHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 6rem;
+    }
+
+    #clockHeader>div {
+
+        display: flex;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    #img {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        width: 19rem;
+        height: 19rem;
+    }
+
+    a {
+        font-size: 2.6rem;
+        width: 15rem;
+    }
+}
+
+/* Responsive styles for 768px – 1024px: Small screens, laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #firstheader {
+        color: white;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    #header1 {
+        font-size: 4rem;
+        margin-top: 4rem;
+    }
+
+    #clockHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #clockHeader>div {
+        margin-bottom: 1rem;
+        display: flex;
+        font-size: 1.5rem;
+    }
+
+    #timer {
+        font-size: 2.5rem;
+        column-gap: 20px;
+        margin-top: 4rem;
+    }
+
+    #colon,
+    #colonone,
+    #colontwo,
+    #colonthird {
+        font-size: 3.5rem;
+    }
+
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+        height: 7rem;
+        width: 7rem;
+        font-size: 3.5rem;
+    }
+
+    #img {
+        width: 13rem;
+        height: 13rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+        width: 9rem;
+    }
+}
+
+/* Responsive styles for 481px – 768px: iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    #firstheader {
+        color: white;
+        font-size: 1.8rem;
+    }
+
+    #header1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    #clockHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #clockHeader>div {
+        margin-bottom: 1rem;
+        display: flex;
+    }
+
+    #timer {
+        font-size: 2rem;
+        column-gap: 2.5px;
+        margin-top: 5rem;
+    }
+
+    #colon,
+    #colonone,
+    #colontwo,
+    #colonthird {
+        font-size: 2.5rem;
+    }
+
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+        height: 6rem;
+        width: 6rem;
+        font-size: 3rem;
+    }
+
+    #img {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+
+    img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    a {
+        font-size: 1.4rem;
+        width: 10rem;
+    }
+}
+
+/* Responsive styles for 320px – 480px: Mobile devices */
+@media (max-width: 480px) {
+    #firstheader {
+        color: white;
+        font-size: 1rem;
+
+    }
+
+    #header1 {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    #timer {
+        font-size: 2rem;
+        column-gap: 4px;
+
+    }
+
+    #colon,
+    #colonone,
+    #colontwo,
+    #colonthird {
+        font-size: 1.5rem;
+    }
+
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 1.5rem;
+    }
+
+    #clockHeader>div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1px;
+        font-size: 0.8rem;
+    }
+
+    #img {
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1rem;
+    }
+
+    img {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+    a {
+        font-size: 0.8rem;
+        width: 6rem;
+    }
+}
+
+
