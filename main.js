@@ -34,7 +34,6 @@ function startMainCountdown() {
             document.getElementById("minutes").innerText = "00";
             document.getElementById("seconds").innerText = "00";
             document.getElementById("header1").innerText = "Countdown Finished!";
-
             // Trigger confetti effect
             confetti({
                 particleCount: 100,
