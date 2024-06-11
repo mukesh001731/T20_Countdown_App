@@ -48,7 +48,7 @@ function startCountdown() {
         }
     }, 1000);
 
-    window.location.href = "countdownrep.html";
+    window.location.href = "index.html";
 }
 
 function resetMainCountdownDisplay() {
@@ -82,5 +82,5 @@ document.getElementById('resetCountdown').addEventListener('click', function () 
     console.log('Countdown reset');
     alert("Reset Succes")
 
-   // window.location.href = "countdownrep.html";
+   // window.location.href = "index.html";
 });
